@@ -10,7 +10,6 @@ TicTacToe is an android based application which allows to play a game named 'tic
 # Tools Used
 
 - Android Studio Ide
-- MySQL Database
 
 # Languages Used
 
