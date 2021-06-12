@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BCFF0000</color>
+    <color name="white">#fff</color>
+    <color name="ttt">#1510F0</color>
+    <color name="orange">#9F4B70AF</color>
+    <color name="orange_pressed">#9FB4BCCE</color>
+    <color name="colorPrimaryDark">#BCFF0000</color>
+    <color name="colorAccent">#BCFF0000</color>
+    <color name="red">#BCFF0000</color>
+</resources>

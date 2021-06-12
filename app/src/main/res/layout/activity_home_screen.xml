@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xoback"
+    tools:context=".HomeScreen">
+
+    <TextView
+        android:id="@+id/tic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:text="Tic"
+        android:textColor="@color/ttt"
+        android:textSize="50sp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tic"
+        android:gravity="center"
+        android:shadowColor="@color/ttt"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="Tac"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/toe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tac"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:text="Toe"
+        android:textColor="@color/ttt"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/player1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toe"
+        android:background="@drawable/button"
+        android:text="1 player"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/player2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:text="2 player"
+        android:layout_below="@+id/player1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/player3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:text="Quit"
+        android:layout_below="@id/player2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        >
+    </Button>
+</RelativeLayout>
