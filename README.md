@@ -19,4 +19,4 @@ TicTacToe is an android based application which allows to play a game named 'tic
 
 # Preview
 
-
+![preview](https://github.com/vinay-alt/TicTacToe/blob/master/ss.PNG)
