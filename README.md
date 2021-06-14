@@ -2,6 +2,8 @@
 
 TicTacToe is an android based application which allows to play a game named 'tic tac toe'. For the purpose of building computer's move in single player 'MinMax' algorithm is used.
 
+Demo video : [TicTacToe](https://youtu.be/mlZkJV0H4xo)
+
 # Features
 
 - Single player tic tac toe
