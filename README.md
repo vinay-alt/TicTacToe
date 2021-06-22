@@ -6,17 +6,23 @@ Demo video : [TicTacToe](https://youtu.be/mlZkJV0H4xo)
 
 # Features
 
+```
 - Single player tic tac toe
 - Double player tic tac toe
+```
 
 # Tools Used
 
+```
 - Android Studio Ide
+```
 
 # Languages Used
 
+```
 - Java 
 - XML
+```
 
 # Preview
 
